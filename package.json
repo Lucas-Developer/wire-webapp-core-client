@@ -4,8 +4,8 @@
     "url": "https://github.com/wireapp/wire-webapp-core-client/issues"
   },
   "dependencies": {
-    "optimist": "^0.6.1",
-    "wire-webapp-core": "wireapp/wire-webapp-core#e890433e3b9e73ddb429c6e7fad09d27eb3ae6b4"
+    "optimist": "~0.6.1",
+    "wire-webapp-core": "~0.2.0"
   },
   "homepage": "https://github.com/wireapp/wire-webapp-core-client#readme",
   "license": "GPL-3.0",
