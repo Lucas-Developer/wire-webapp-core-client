@@ -13,5 +13,11 @@ Command-Line Client for Wire's secure messaging platform.
 ### Usage
 
 ```bash
-node index.js --e="yourname@email.com" --p="secret" --c="594f0908-b9b7-40f9-a06a-45612145e64e"
+#!/bin/bash
+
+EMAIL = "yourname@email.com";
+PASSWORD = "secret";
+CONVERSATION_ID = "594f0908-b9b7-40f9-a06a-45612145e64e";
+
+node index.js --e="$EMAIL" --p="$PASSWORD" --c="$CONVERSATION_ID"
 ```
