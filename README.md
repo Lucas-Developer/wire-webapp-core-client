@@ -4,20 +4,20 @@ This repository is part of the source code of Wire. You can find more informatio
 
 You can find the published source code at [github.com/wireapp](https://github.com/wireapp).
 
-For licensing information, see the attached LICENSE file and the list of third-party licenses at [wire.com/legal/licenses/](https://wire.com/legal/licenses/).
+For licensing information, see the attached [LICENSE](LICENSE) file and the list of third-party licenses at [wire.com/legal/licenses/](https://wire.com/legal/licenses/).
 
 ## wire-webapp-core-client
 
-Command-Line Client for Wire's secure messaging platform.
+Command-line client for Wire's secure messaging platform.
 
 ### Usage
 
 ```bash
 #!/bin/bash
 
-EMAIL = "yourname@email.com";
-PASSWORD = "secret";
-CONVERSATION_ID = "594f0908-b9b7-40f9-a06a-45612145e64e";
+EMAIL="yourname@email.com"
+PASSWORD="secret"
+CONVERSATION_ID="594f0908-b9b7-40f9-a06a-45612145e64e"
 
-node index.js --e="$EMAIL" --p="$PASSWORD" --c="$CONVERSATION_ID"
+node index.js -e "${EMAIL}" -p "${PASSWORD}" -c "${CONVERSATION_ID}"
 ```
